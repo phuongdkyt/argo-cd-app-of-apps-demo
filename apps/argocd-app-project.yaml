@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  creationTimestamp: "2024-02-18T13:40:34Z"
+  generation: 4
+  name: d01
+  namespace: default
+  resourceVersion: "4238190"
+  uid: 5cef4090-f5a1-4b59-8414-696b0c2beb11
+spec:
+  clusterResourceWhitelist:
+  - group: '*'
+    kind: '*'
+  destinations:
+  - name: '*'
+    namespace: '*'
+    server: '*'
+  sourceRepos:
+  - '*'
