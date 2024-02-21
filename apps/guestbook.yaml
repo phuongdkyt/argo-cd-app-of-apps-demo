@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: phuongnd
     name: in-cluster
-  project: d01
+  project: argocd
   source:
     path: general/helm-guestbook
     repoURL: https://github.com/morey-tech/argocd-example-apps
